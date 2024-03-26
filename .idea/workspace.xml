@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0fa1de32-be1f-455e-ab7c-ec0bcfb61b36" name="変更" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/admin/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="PhpDebugGeneral" listening_started="true">
+    <xdebug_debug_ports port="9003" />
+    <xdebug_debug_ports port="9001" />
+  </component>
+  <component name="PhpServers">
+    <servers>
+      <server host="localhost" id="13e9c387-42ac-49e5-9d4f-89f06c986773" name="server" use_path_mappings="true" />
+    </servers>
+  </component>
+  <component name="PhpWebServerValidation" path_to_validation_script="$PROJECT_DIR$" selected_validation_type="LOCAL" web_path_to_validation_script="http://127.0.0.1/" />
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="web">
+    <include_path>
+      <path value="$PROJECT_DIR$/admin/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/admin/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/admin/vendor/symfony/cache" />
+      <path value="$PROJECT_DIR$/admin/vendor/symfony/polyfill-ctype" />
+      <path value="$PROJECT_DIR$/admin/vendor/symfony/polyfill-php81" />
+      <path value="$PROJECT_DIR$/admin/vendor/symfony/config" />
+      <path value="$PROJECT_DIR$/admin/vendor/symfony/expression-language" />
+      <path value="$PROJECT_DIR$/admin/vendor/symfony/filesystem" />
+      <path value="$PROJECT_DIR$/admin/vendor/symfony/deprecation-contracts" />
+      <path value="$PROJECT_DIR$/admin/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/admin/vendor/symfony/var-exporter" />
+      <path value="$PROJECT_DIR$/admin/vendor/symfony/cache-contracts" />
+      <path value="$PROJECT_DIR$/admin/vendor/symfony/dependency-injection" />
+      <path value="$PROJECT_DIR$/admin/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/admin/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/admin/vendor/beberlei/assert" />
+      <path value="$PROJECT_DIR$/admin/vendor/code-lts/u2f-php-server" />
+      <path value="$PROJECT_DIR$/admin/vendor/pragmarx/google2fa" />
+      <path value="$PROJECT_DIR$/admin/vendor/pragmarx/google2fa-qrcode" />
+      <path value="$PROJECT_DIR$/admin/vendor/web-auth/webauthn-lib" />
+      <path value="$PROJECT_DIR$/admin/vendor/web-auth/metadata-service" />
+      <path value="$PROJECT_DIR$/admin/vendor/web-auth/cose-lib" />
+      <path value="$PROJECT_DIR$/admin/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/admin/vendor/paragonie/constant_time_encoding" />
+      <path value="$PROJECT_DIR$/admin/vendor/paragonie/sodium_compat" />
+      <path value="$PROJECT_DIR$/admin/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/admin/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/admin/vendor/phpmyadmin/shapefile" />
+      <path value="$PROJECT_DIR$/admin/vendor/phpmyadmin/motranslator" />
+      <path value="$PROJECT_DIR$/admin/vendor/phpmyadmin/sql-parser" />
+      <path value="$PROJECT_DIR$/admin/vendor/phpmyadmin/twig-i18n-extension" />
+      <path value="$PROJECT_DIR$/admin/vendor/tecnickcom/tcpdf" />
+      <path value="$PROJECT_DIR$/admin/vendor/williamdes/mariadb-mysql-kbs" />
+      <path value="$PROJECT_DIR$/admin/vendor/spomky-labs/cbor-php" />
+      <path value="$PROJECT_DIR$/admin/vendor/spomky-labs/base64url" />
+      <path value="$PROJECT_DIR$/admin/vendor/thecodingmachine/safe" />
+      <path value="$PROJECT_DIR$/admin/vendor/composer" />
+      <path value="$PROJECT_DIR$/admin/vendor/fig/http-message-util" />
+      <path value="$PROJECT_DIR$/admin/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/admin/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/admin/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/admin/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/admin/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/admin/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/admin/vendor/slim/psr7" />
+      <path value="$PROJECT_DIR$/admin/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/admin/vendor/bacon/bacon-qr-code" />
+      <path value="$PROJECT_DIR$/admin/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/admin/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/admin/vendor/google/recaptcha" />
+      <path value="$PROJECT_DIR$/admin/vendor/league/uri-interfaces" />
+      <path value="$PROJECT_DIR$/admin/vendor/league/uri" />
+      <path value="$PROJECT_DIR$/admin/vendor/ramsey/collection" />
+      <path value="$PROJECT_DIR$/admin/vendor/ramsey/uuid" />
+      <path value="$PROJECT_DIR$/admin/vendor/dasprid/enum" />
+      <path value="$PROJECT_DIR$/admin/vendor/fgrosse/phpasn1" />
+    </include_path>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2dZve5VvgdBgVx6qg9HKrWjxyGl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "PHP スクリプト.index.php.executor": "Debug",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "credentialsType com.jetbrains.php.remote.interpreter.ui.PhpCreateRemoteSdkForm": "Docker Compose",
+    "credentialsType com.jetbrains.php.remote.interpreter.ui.PhpInplaceEditRemoteSdkForm": "Docker Compose",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/shungiku/Library/Mobile Documents/com~apple~CloudDocs/研究/評定ツール/Docker/html",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "ts.external.directory.path": "/Users/shungiku/Applications/PhpStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/script/lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/script" />
+      <recent name="$PROJECT_DIR$/pld2" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="index.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/index.php">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="web" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-php-predefined-ba97393d7c68-74080bdb84d3-com.jetbrains.php.sharedIndexes-PS-233.11799.297" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="アプリケーションレベル" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="デフォルトタスク">
+      <changelist id="0fa1de32-be1f-455e-ab7c-ec0bcfb61b36" name="変更" comment="" />
+      <created>1710228506594</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1710228506594</updated>
+      <workItem from="1710228507669" duration="8644000" />
+      <workItem from="1710289661520" duration="597000" />
+      <workItem from="1710394310753" duration="767000" />
+      <workItem from="1710395657999" duration="1271000" />
+      <workItem from="1710398018157" duration="6426000" />
+      <workItem from="1710728183471" duration="696000" />
+      <workItem from="1711090899882" duration="5387000" />
+      <workItem from="1711456423673" duration="1368000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
