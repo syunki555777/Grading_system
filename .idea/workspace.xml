@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fa1de32-be1f-455e-ab7c-ec0bcfb61b36" name="変更" comment="">
-      <change afterPath="$PROJECT_DIR$/submit.php" afterDir="false" />
+    <list default="true" id="0fa1de32-be1f-455e-ab7c-ec0bcfb61b36" name="変更" comment="基本的なPOST処理およびUIの改善を追加&#10;POSTリクエストの受信と適切な応答を行うsubmit.phpを作成しました。index.htmlを更新してユーザーとの対話性を向上させ、より良いUIのためにstyle.cssに新しいスタイルを追加しました。また、script/grading.jsを修正してUIイベントの処理とPOSTリクエストの送信を行うようにしました。.idea/workspace.xmlの変更に合わせていくつかのワークスペース設定も調整しました">
+      <change afterPath="$PROJECT_DIR$/iPhone.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script/grading.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/grading.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/名称未設定プロジェクト.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/video/src1/source1.mp4" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +184,7 @@
       <workItem from="1711090899882" duration="5387000" />
       <workItem from="1711456423673" duration="8586000" />
       <workItem from="1711466541105" duration="598000" />
-      <workItem from="1711507829478" duration="1101000" />
+      <workItem from="1711507829478" duration="6361000" />
     </task>
     <task id="LOCAL-00001" summary="プロジェクトワークスペース設定と基本的なフロントエンドファイルの追加&#10;&#10;このコミットでは、プロジェクトワークスペースのxmlファイルとそれに対応するvcs xmlファイルが導入されます。また、HTMLページ（index.html）の初期構造とそのCSSとJavaScriptファイルが追加されます。特筆すべきは、jQueryライブラリの含まれ、ページのボタン動作を処理する基本スクリプトが含まれていることです。">
       <option name="closed" value="true" />
@@ -195,7 +194,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711458093946</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="基本的なPOST処理およびUIの改善を追加&#10;POSTリクエストの受信と適切な応答を行うsubmit.phpを作成しました。index.htmlを更新してユーザーとの対話性を向上させ、より良いUIのためにstyle.cssに新しいスタイルを追加しました。また、script/grading.jsを修正してUIイベントの処理とPOSTリクエストの送信を行うようにしました。.idea/workspace.xmlの変更に合わせていくつかのワークスペース設定も調整しました">
+      <option name="closed" value="true" />
+      <created>1711509025620</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711509025620</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,7 +211,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="プロジェクトワークスペース設定と基本的なフロントエンドファイルの追加&#10;&#10;このコミットでは、プロジェクトワークスペースのxmlファイルとそれに対応するvcs xmlファイルが導入されます。また、HTMLページ（index.html）の初期構造とそのCSSとJavaScriptファイルが追加されます。特筆すべきは、jQueryライブラリの含まれ、ページのボタン動作を処理する基本スクリプトが含まれていることです。" />
-    <option name="LAST_COMMIT_MESSAGE" value="プロジェクトワークスペース設定と基本的なフロントエンドファイルの追加&#10;&#10;このコミットでは、プロジェクトワークスペースのxmlファイルとそれに対応するvcs xmlファイルが導入されます。また、HTMLページ（index.html）の初期構造とそのCSSとJavaScriptファイルが追加されます。特筆すべきは、jQueryライブラリの含まれ、ページのボタン動作を処理する基本スクリプトが含まれていることです。" />
+    <MESSAGE value="基本的なPOST処理およびUIの改善を追加&#10;POSTリクエストの受信と適切な応答を行うsubmit.phpを作成しました。index.htmlを更新してユーザーとの対話性を向上させ、より良いUIのためにstyle.cssに新しいスタイルを追加しました。また、script/grading.jsを修正してUIイベントの処理とPOSTリクエストの送信を行うようにしました。.idea/workspace.xmlの変更に合わせていくつかのワークスペース設定も調整しました" />
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

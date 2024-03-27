@@ -3,22 +3,27 @@ $("#buttons > div").on("click",function (e){
     SelectReset();
     $(this).addClass("selection");
     selected = parseInt($(this).attr("id"));
+    $("#submit").removeClass("invalid");
 });
 
+$("#error").hide();
 $("#submit").on("click",function (e){
     if(selected === 0){
         return;
     }
     //送信処理
     console.log(selected)
-    postData("submit.php",{test: 1}).then(data =>{
-        console.log(data);
-        if(data.status === "OK"){
-            console.log("OKが返されました。")
-            SelectReset();
-        }
-    });
-    $(".selection").removeClass("selection");
+
+        postData("submit.php", {test: 1}).then(data => {
+            console.log(data);
+            if (data.status === "OK") {
+                console.log("OKが返されました。");
+                SelectReset();
+                $(".selection").removeClass("selection");
+            }
+        }).catch(e=> {
+            error("送信できませんでした")
+        });
 });
 
 function postData(url = '', data = {}) {
@@ -41,6 +46,8 @@ function postData(url = '', data = {}) {
 
 function SelectReset(){
     $(".selection").removeClass("selection");
+    $("#submit").addClass("invalid");
+    $("#error").hide();
     selected = 0;
 }
 
@@ -48,3 +55,34 @@ function SelectReset(){
 //   .then(data => {
 //   console.log(data); // JSON data parsed by `response.json()` call
 // });
+
+function isIphone() {
+    const userAgent = window.navigator.userAgent.toLowerCase();
+    return userAgent.includes('iphone');
+}
+
+function addStylesheet(filename) {
+    var head = document.head;
+    var link = document.createElement("link");
+
+    link.type = "text/css";
+    link.rel = "stylesheet";
+    link.href = filename;
+
+    head.appendChild(link);
+}
+
+if(isIphone()){
+    addStylesheet("iPhone.css");
+}
+
+function error(text){
+    var errorEle = $("#error");
+    errorEle.text(text);
+    errorEle.show();
+    errorEle.clearQueue();
+    errorEle.delay(10000).queue(()=>{
+        errorEle.hide();
+    });
+    console.log(text)
+}

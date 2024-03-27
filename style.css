@@ -1,12 +1,21 @@
+
 *{
+    font-family: "M PLUS 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
     padding:0;
     margin:0;
 }
 body{
-    display: flex;
-    flex-flow: column;
-    overflow-x:hidden;
+    height:100dvh;
+    width:100dvw;
+    overflow:hidden;
+}
 
+#view-port{
+    flex-flow: column;
+    display: flex;
 }
 #top-bar{
     width:100%;
@@ -30,7 +39,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:5em 0;
+    margin:clamp(1em,8dvh,5em) 0;
 }
 
 #video video{
@@ -49,7 +58,7 @@ body{
     position:absolute;
     bottom:0;
     right: 0;
-    font-size: 10em;
+    font-size: 7em;
     color:rgba(0,0,0,.1);
     user-select: none;
     z-index: -100;
@@ -103,3 +112,14 @@ body{
     color:rgba(0,0,0,.5);
 }
 
+.invalid{
+    margin-top:calc(1em + 5px);
+    border-bottom:0px gray solid;
+    background-color: #f0f0f0;
+    box-shadow: none;
+    cursor:default;
+    color:gray;
+}
+#error{
+    color:red;
+}
