@@ -4,26 +4,30 @@
     <meta charset="UTF-8">
     <title>評定ツール</title>
     <script src="script/lib/jquery-3.7.1.min.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="top-bar">
+<div id="top-bar">
     <h1>〇〇さんの評定者ツール</h1>
 </div>
 <div class="view-port">
-    <div class="video">
-
+    <div id="video" >
+        <video src="video/src1/source1.mp4" autoplay muted loop></video>
     </div>
-    <div class="answer">
+    <div id="answer">
+        <div class="disc">
+            More Than Sleepy →
+        </div>
             <div id="buttons">
-                <button label="1" class="selection">1</button>
-                <button label="2" class="">2</button>
-                <button label="3" class="">3</button>
-                <button label="4" class="">4</button>
-                <button label="5" class="">5</button>
+                <div id="1" class="button">1</div>
+                <div id="2" class="button ">2</div>
+                <div id="3" class="button ">3</div>
+                <div id="4" class="button ">4</div>
+                <div id="5" class="button ">5</div>
             </div>
-            <button label="submit" class="">送信</button>
+            <div id="submit" class="button">送信</div>
     </div>
-    <div class="num">10/10</div>
+    <div id="num">10/10</div>
 </div>
 
 <!-- 読み込みようスクリプト--->

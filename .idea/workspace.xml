@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fa1de32-be1f-455e-ab7c-ec0bcfb61b36" name="変更" comment="" />
+    <list default="true" id="0fa1de32-be1f-455e-ab7c-ec0bcfb61b36" name="変更" comment="">
+      <change afterPath="$PROJECT_DIR$/submit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script/grading.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/grading.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/名称未設定プロジェクト.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/video/src1/source1.mp4" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,37 +110,43 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2dZve5VvgdBgVx6qg9HKrWjxyGl" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "PHP スクリプト.index.php.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "credentialsType com.jetbrains.php.remote.interpreter.ui.PhpCreateRemoteSdkForm": "Docker Compose",
-    "credentialsType com.jetbrains.php.remote.interpreter.ui.PhpInplaceEditRemoteSdkForm": "Docker Compose",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/shungiku/Library/Mobile Documents/com~apple~CloudDocs/研究/評定ツール/Docker/html",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "ts.external.directory.path": "/Users/shungiku/Applications/PhpStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;PHP スクリプト.index.php.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;credentialsType com.jetbrains.php.remote.interpreter.ui.PhpCreateRemoteSdkForm&quot;: &quot;Docker Compose&quot;,
+    &quot;credentialsType com.jetbrains.php.remote.interpreter.ui.PhpInplaceEditRemoteSdkForm&quot;: &quot;Docker Compose&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/shungiku/Library/Mobile Documents/com~apple~CloudDocs/研究/評定ツール/Docker/html&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/Users/shungiku/Applications/PhpStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/script/lib" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/video/src1" />
+      <recent name="$PROJECT_DIR$/video" />
       <recent name="$PROJECT_DIR$/script" />
       <recent name="$PROJECT_DIR$/pld2" />
     </key>
@@ -170,12 +183,28 @@
       <workItem from="1710398018157" duration="6426000" />
       <workItem from="1710728183471" duration="696000" />
       <workItem from="1711090899882" duration="5387000" />
-      <workItem from="1711456423673" duration="1368000" />
+      <workItem from="1711456423673" duration="8586000" />
+      <workItem from="1711466541105" duration="598000" />
+      <workItem from="1711507829478" duration="1101000" />
     </task>
+    <task id="LOCAL-00001" summary="プロジェクトワークスペース設定と基本的なフロントエンドファイルの追加&#10;&#10;このコミットでは、プロジェクトワークスペースのxmlファイルとそれに対応するvcs xmlファイルが導入されます。また、HTMLページ（index.html）の初期構造とそのCSSとJavaScriptファイルが追加されます。特筆すべきは、jQueryライブラリの含まれ、ページのボタン動作を処理する基本スクリプトが含まれていることです。">
+      <option name="closed" value="true" />
+      <created>1711458093946</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1711458093946</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="プロジェクトワークスペース設定と基本的なフロントエンドファイルの追加&#10;&#10;このコミットでは、プロジェクトワークスペースのxmlファイルとそれに対応するvcs xmlファイルが導入されます。また、HTMLページ（index.html）の初期構造とそのCSSとJavaScriptファイルが追加されます。特筆すべきは、jQueryライブラリの含まれ、ページのボタン動作を処理する基本スクリプトが含まれていることです。" />
+    <option name="LAST_COMMIT_MESSAGE" value="プロジェクトワークスペース設定と基本的なフロントエンドファイルの追加&#10;&#10;このコミットでは、プロジェクトワークスペースのxmlファイルとそれに対応するvcs xmlファイルが導入されます。また、HTMLページ（index.html）の初期構造とそのCSSとJavaScriptファイルが追加されます。特筆すべきは、jQueryライブラリの含まれ、ページのボタン動作を処理する基本スクリプトが含まれていることです。" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
