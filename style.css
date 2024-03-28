@@ -39,11 +39,15 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: column;
     margin:clamp(1em,8dvh,5em) 0;
+
+    object-fit: contain;
 }
 
 #video video{
     width:80%;
+    height:20em;
     max-width:50em;
 }
 
@@ -123,3 +127,55 @@ body{
 #error{
     color:red;
 }
+
+#NowLoading{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    height:100dvh;
+    width:100dvw;
+    background-color: white;
+    z-index: 1000;
+    transition: 0.1s;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg) scale(1);}
+    100% { transform:  rotate(1080deg) scale(1); }
+}
+
+.sending{
+    border-radius: 100%;
+    transition: 0.2s;
+    /*animation:spin linear infinite 2s;*/
+    border: none;
+    color: rgba(255,255,255,0);
+}
+
+.sending:before,.loading:after{
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+    color: #666;
+    line-height: 1;
+    width: 2.5em;
+    height: 2.5em;
+    border: 0.3em solid currentColor;
+    border-top-color: transparent;
+    border-radius: 50%;
+    box-sizing: border-box;
+    content:"";
+    animation: rotate 1s linear infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+

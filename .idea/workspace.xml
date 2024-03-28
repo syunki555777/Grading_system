@@ -4,12 +4,46 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0fa1de32-be1f-455e-ab7c-ec0bcfb61b36" name="変更" comment="基本的なPOST処理およびUIの改善を追加&#10;POSTリクエストの受信と適切な応答を行うsubmit.phpを作成しました。index.htmlを更新してユーザーとの対話性を向上させ、より良いUIのためにstyle.cssに新しいスタイルを追加しました。また、script/grading.jsを修正してUIイベントの処理とPOSTリクエストの送信を行うようにしました。.idea/workspace.xmlの変更に合わせていくつかのワークスペース設定も調整しました">
-      <change afterPath="$PROJECT_DIR$/iPhone.css" afterDir="false" />
+    <list default="true" id="0fa1de32-be1f-455e-ab7c-ec0bcfb61b36" name="変更" comment="Googleフォントの追加と採点ページでのエラーハンドリングの実装&#10;このコミットには、HTMLファイルにGoogleフォントを統合することで、異なるブラウザ間で一貫したタイポグラフィを提供します。また、grading.jsスクリプトでエラーハンドリングを実装し、ユーザーエクスペリエンスを向上させています。複数のUI改善も行われており、採点に失敗した場合の新しいエラーメッセージの追加などが含まれています。ワークスペース設定にも調整が施されています。">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/InstalledVersions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/installed.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/composer/platform_check.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/firebase/php-jwt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/google/apiclient" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/google/apiclient-services" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/google/auth" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/promises" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/guzzlehttp/psr7" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/monolog/monolog" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/paragonie/constant_time_encoding" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/paragonie/random_compat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/phpseclib/phpseclib" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/psr/cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/psr/http-client" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/psr/http-factory" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/psr/http-message" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/psr/log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/ralouphie/getallheaders" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/script/grading.js" beforeDir="false" afterPath="$PROJECT_DIR$/script/grading.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/submit.php" beforeDir="false" afterPath="$PROJECT_DIR$/submit.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,8 +51,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ComposerSettings" synchronizationState="SYNCHRONIZE">
-    <pharConfigPath>$PROJECT_DIR$/admin/composer.json</pharConfigPath>
-    <execution />
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <execution>
+      <interpreter composer="composer" />
+    </execution>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -32,16 +68,35 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;syunki555777&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="e6c83112-9e16-41a1-88fa-4c508d0e0d0d" />
+        <option name="url" value="https://github.com/syunki555777/Grading_system.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="PhpDebugGeneral" listening_started="true">
     <xdebug_debug_ports port="9003" />
-    <xdebug_debug_ports port="9001" />
+    <xdebug_debug_ports port="56325" />
+    <xdebug_debug_ports port="56917" />
   </component>
   <component name="PhpServers">
     <servers>
-      <server host="localhost" id="13e9c387-42ac-49e5-9d4f-89f06c986773" name="server" use_path_mappings="true" />
+      <server host="localhost" id="13e9c387-42ac-49e5-9d4f-89f06c986773" name="server" use_path_mappings="true">
+        <path_mappings>
+          <mapping local-root="$PROJECT_DIR$" remote-root="var/www/html" />
+        </path_mappings>
+      </server>
     </servers>
   </component>
   <component name="PhpWebServerValidation" path_to_validation_script="$PROJECT_DIR$" selected_validation_type="LOCAL" web_path_to_validation_script="http://127.0.0.1/" />
@@ -103,7 +158,29 @@
       <path value="$PROJECT_DIR$/admin/vendor/ramsey/uuid" />
       <path value="$PROJECT_DIR$/admin/vendor/dasprid/enum" />
       <path value="$PROJECT_DIR$/admin/vendor/fgrosse/phpasn1" />
+      <path value="$PROJECT_DIR$/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/constant_time_encoding" />
+      <path value="$PROJECT_DIR$/vendor/phpseclib/phpseclib" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/google/auth" />
+      <path value="$PROJECT_DIR$/vendor/google/apiclient" />
+      <path value="$PROJECT_DIR$/vendor/google/apiclient-services" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/symfony/deprecation-contracts" />
     </include_path>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="QODANA_PROBLEMS_VIEW_TAB" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -133,7 +210,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.webide.settings.project.settings.php.debug&quot;,
     &quot;ts.external.directory.path&quot;: &quot;/Users/shungiku/Applications/PhpStorm.app/Contents/plugins/javascript-impl/jsLanguageServicesImpl/external&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -184,7 +261,12 @@
       <workItem from="1711090899882" duration="5387000" />
       <workItem from="1711456423673" duration="8586000" />
       <workItem from="1711466541105" duration="598000" />
-      <workItem from="1711507829478" duration="6361000" />
+      <workItem from="1711507829478" duration="11188000" />
+      <workItem from="1711521729902" duration="10064000" />
+      <workItem from="1711547228294" duration="10291000" />
+      <workItem from="1711560413900" duration="710000" />
+      <workItem from="1711597066501" duration="12053000" />
+      <workItem from="1711617838643" duration="424000" />
     </task>
     <task id="LOCAL-00001" summary="プロジェクトワークスペース設定と基本的なフロントエンドファイルの追加&#10;&#10;このコミットでは、プロジェクトワークスペースのxmlファイルとそれに対応するvcs xmlファイルが導入されます。また、HTMLページ（index.html）の初期構造とそのCSSとJavaScriptファイルが追加されます。特筆すべきは、jQueryライブラリの含まれ、ページのボタン動作を処理する基本スクリプトが含まれていることです。">
       <option name="closed" value="true" />
@@ -202,7 +284,15 @@
       <option name="project" value="LOCAL" />
       <updated>1711509025620</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Googleフォントの追加と採点ページでのエラーハンドリングの実装&#10;このコミットには、HTMLファイルにGoogleフォントを統合することで、異なるブラウザ間で一貫したタイポグラフィを提供します。また、grading.jsスクリプトでエラーハンドリングを実装し、ユーザーエクスペリエンスを向上させています。複数のUI改善も行われており、採点に失敗した場合の新しいエラーメッセージの追加などが含まれています。ワークスペース設定にも調整が施されています。">
+      <option name="closed" value="true" />
+      <created>1711515994334</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711515994334</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +302,15 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="プロジェクトワークスペース設定と基本的なフロントエンドファイルの追加&#10;&#10;このコミットでは、プロジェクトワークスペースのxmlファイルとそれに対応するvcs xmlファイルが導入されます。また、HTMLページ（index.html）の初期構造とそのCSSとJavaScriptファイルが追加されます。特筆すべきは、jQueryライブラリの含まれ、ページのボタン動作を処理する基本スクリプトが含まれていることです。" />
     <MESSAGE value="基本的なPOST処理およびUIの改善を追加&#10;POSTリクエストの受信と適切な応答を行うsubmit.phpを作成しました。index.htmlを更新してユーザーとの対話性を向上させ、より良いUIのためにstyle.cssに新しいスタイルを追加しました。また、script/grading.jsを修正してUIイベントの処理とPOSTリクエストの送信を行うようにしました。.idea/workspace.xmlの変更に合わせていくつかのワークスペース設定も調整しました" />
-    <option name="LAST_COMMIT_MESSAGE" value="" />
+    <MESSAGE value="Googleフォントの追加と採点ページでのエラーハンドリングの実装&#10;このコミットには、HTMLファイルにGoogleフォントを統合することで、異なるブラウザ間で一貫したタイポグラフィを提供します。また、grading.jsスクリプトでエラーハンドリングを実装し、ユーザーエクスペリエンスを向上させています。複数のUI改善も行われており、採点に失敗した場合の新しいエラーメッセージの追加などが含まれています。ワークスペース設定にも調整が施されています。" />
+    <option name="LAST_COMMIT_MESSAGE" value="Googleフォントの追加と採点ページでのエラーハンドリングの実装&#10;このコミットには、HTMLファイルにGoogleフォントを統合することで、異なるブラウザ間で一貫したタイポグラフィを提供します。また、grading.jsスクリプトでエラーハンドリングを実装し、ユーザーエクスペリエンスを向上させています。複数のUI改善も行われており、採点に失敗した場合の新しいエラーメッセージの追加などが含まれています。ワークスペース設定にも調整が施されています。" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="submit.php">
+        <watch expression="$e-&gt;message" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
