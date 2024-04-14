@@ -17,3 +17,19 @@ php側からGoogleへのアクセスが必要です。また、Googleアクセ�
 SheetAPIの利用制限があるので大規模な評定には向きません。
 
 Google APIの権利はGoogle社に帰属します。
+
+## English
+
+# Drowsiness Rating System
+This is a system that allows you to easily evaluate sleepiness from a browser on a smartphone or PC using a PHP environment.
+Why was it created?
+The burden on the sleepiness evaluators was significant, so we developed a simple system that allows evaluations to be conducted even while commuting or attending school.
+
+## What can it do?
+Using Google's SheetAPI, you can record evaluations on a Spreadsheet. (A file following a predetermined format is required.) To reduce the burden, keyboard operations are also possible.
+### Shortcuts
+The numbers 1, 2, 3, 4, 5 correspond to each button. You can send the value using Enter.
+
+## Attention
+Access to Google from the php side is required. Also, you will need to generate a separate json for Google access. There are usage restrictions on the SheetAPI, so it is not suitable for large-scale evaluations.
+The rights to the Google API belong to Google.
