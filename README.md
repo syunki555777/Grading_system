@@ -22,7 +22,8 @@ Google APIの権利はGoogle社に帰属します。
 
 # Drowsiness Rating System
 This is a system that allows you to easily evaluate sleepiness from a browser on a smartphone or PC using a PHP environment.
-Why was it created?
+
+## Why was it created?
 The burden on the sleepiness evaluators was significant, so we developed a simple system that allows evaluations to be conducted even while commuting or attending school.
 
 ## What can it do?
